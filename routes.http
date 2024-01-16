@@ -1,0 +1,31 @@
+POST http://localhost:3333/cadastro
+Content-Type: application/json
+
+{
+  "name": "Caio",
+  "age": 19,
+  "email": "caio@example.com",
+  "country": "Brazil",
+  "salary": 1000
+}
+
+###
+
+GET http://localhost:3333/cadastro
+
+###
+
+PUT http://localhost:3333/cadastro/y2djs6lzgtqao7gt9dfrxm0i
+Content-Type: application/json
+
+{
+  "name": "Kate Lyons",
+  "age": 25,
+  "email": "ifures@zufu.eu",
+  "country": "Solomon Islands",
+  "salary": 2471.42
+}
+
+###
+
+DELETE http://localhost:3333/cadastro/y2djs6lzgtqao7gt9dfrxm0i
